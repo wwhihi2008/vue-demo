@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   base: '/wwhihi2008.github.io/',
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    sourcemap: false
   }
 })
