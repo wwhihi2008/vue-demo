@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/wwhihi2008.github.io/',
+  base: '/',
   build: {
     outDir: 'docs',
     sourcemap: false
